@@ -81,13 +81,16 @@
   font-family: Raleway, Arial;
   font-size: 1.2em;
   font-weight: bold;
-  color: white;
   background-color: rgb(241, 69, 69);
   border: none;
   cursor: pointer;
   transition: 0.5s;
 }
 
+.button a {
+  text-decoration: none;
+  color: white;
+}
 .button:hover {
   background-color: rgb(143, 69, 69);
 }
@@ -170,6 +173,11 @@
   cursor: pointer;
 }
 
+.primary-btn a {
+  text-decoration: none;
+  color: white;
+}
+
 .footer-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -189,7 +197,7 @@
 }
 
 .social-logo img {
-  display: inline;
+  display: flex;
   width: 30px;
   display: inline;
   align-items: center;
